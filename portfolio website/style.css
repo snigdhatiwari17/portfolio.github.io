@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url('assets/barcelona/SAM_1340.JPG');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header, footer {
+    position: absolute;
+    width: 100%;
+}
+
+#label-top-left {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* Additional styling */
+}
+
+#label-top-right {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    /* Additional styling */
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* Additional styling */
+}
+
+#label-bottom-left {
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    /* Additional styling */
+}
+
+/* Additional styles for text formatting */
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    /* Additional styling */
+}
+
+p {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+    /* Additional styling */
+}
